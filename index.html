@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Лаб9</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <h1><center>Запити до бази даних</center></h1>
+    <p><center>Введіть запит до бази даних:</center></p>
+   <center><input type="text" id="query" name="query" size="50" placeholder="Введіть тут"></center>
+    <center>
+        <button id="button1" type="button">Вивести список усіх таблиць</button>
+        <button id="button2" type="button">Ввести запит</button>
+        <button id="button3" type="button">Зберегти дані у файл csv</button>
+        <button id="button4" type="button">Очистити сторінку</button>
+        <div id="dataContainer">
+            <table id="dataTable">
+                <caption id="tableCaption"></caption>
+                <thead>
+                    <tr>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Сюди будуть додаватися дані з бази даних -->
+                </tbody>
+            </table>
+        </div>
+        <div id="errorMessage" style="color: red;"></div>
+        
+    </center>
+   
+    
+
+    <script src="main.js"></script>
+    
+    
+</body>
+
+</html>
